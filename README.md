@@ -73,7 +73,7 @@ JOIN County_SVI s ON l.state = s.state_abbr
 
 The platform features a secure, Streamlit-based Single Page Application (SPA) that translates complex SQL queries into intuitive visual dashboards. 
 
-*[Screenshot Placeholder: Insert a wide screenshot of your Streamlit Dashboard homepage/login screen here]*
+<img width="3840" height="1890" alt="ca09668da4dcf862eac46b48462efa37" src="https://github.com/user-attachments/assets/86af65c8-54a1-4b5b-b06b-6fce92a11150" />
 
 The system includes **10 predefined analytical modes** optimized for performance, categorized into four core domains:
 
@@ -83,20 +83,20 @@ Visualizing macro-level infrastructure scale and disparities.
 * **Hospital Counts by State:** A comparative bar chart highlighting medical infrastructure density.
 * **National Bed Capacity Trend (Weekly):** A time-series line chart tracking temporal resource fluctuations across all US hospitals.
   
-*[Screenshot Placeholder: Insert a screenshot of the "National Bed Capacity Trend" Line Chart here]*
+<img width="3840" height="1890" alt="b1b8783a44235995c9da59663fe1183f" src="https://github.com/user-attachments/assets/14cf2a6a-07df-47e2-826e-e4487e366e53" />
 
 ### ⚖️ 2. Social Vulnerability (SVI) Impact
 Bridging the gap between socioeconomic status and healthcare access.
 * **Top 10 Most Vulnerable States (Avg SVI):** Aggregates CDC data to highlight states with the highest systemic risk, visualized through high-contrast bar charts.
 
-*[Screenshot Placeholder: Insert a screenshot of the "Top 10 Most Vulnerable States" Bar Chart here]*
+<img width="3840" height="1890" alt="8388ba1e120bab82ed1149678992ee15" src="https://github.com/user-attachments/assets/91e6b7fe-ddd5-4562-ba89-24bc5951e2a3" />
 
 ### 🏥 3. Medical Quality & ICU Intensity
 * **ICU Intensity Ranking (Top 15):** Calculates derived metrics (`icu_avg / beds_avg`) to identify hospitals operating under critical intensive care loads.
 * **Hospital Ratings Distribution:** Analyzes the average CMS star ratings across the top 10 states.
 * **Average Score by Medical Measure:** Evaluates national performance across specific clinical metrics (e.g., mortality rates).
 
-*[Screenshot Placeholder: Insert a screenshot of the "ICU Intensity Ranking" or "Quality" chart here]*
+<img width="3840" height="1890" alt="31fd2e5a226e6d072394d92b1dc07655" src="https://github.com/user-attachments/assets/657edcfb-9d17-4752-9956-37f0bdf57aee" />
 
 ### 📍 4. Regional Deep-Dives
 Executing highly filtered queries for targeted geographic analysis.
@@ -104,7 +104,7 @@ Executing highly filtered queries for targeted geographic analysis.
 * **New York City (NY) Capacity Explorer:** Granular capacity ranking for the NY metropolitan area.
 * **High-Scale Providers in Florida (FL):** Aggregated capacity sum by hospital type in FL.
 
-*[Screenshot Placeholder: Insert a screenshot of the "DMV Area Deep Dive" Grouped Bar Chart here]*
+<img width="3840" height="1890" alt="f404521e161fcf39b029e84d068310f1" src="https://github.com/user-attachments/assets/312125ad-1321-42f0-b1f5-295dd7318a50" />
 
 ---
 *Architected and developed as an end-to-end Data Engineering & Database Systems project.*
